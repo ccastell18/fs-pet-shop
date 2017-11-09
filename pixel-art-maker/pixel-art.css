@@ -1,0 +1,108 @@
+
+.text{
+  font-size: 80px;
+  background-color: red;
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+body{
+  background-color: goldenrod;
+}
+.canvas{
+  display: table;
+  width:100px
+  height:100px
+}
+.wrapper{
+  margin: 20px 300px 10px;
+  display: flex;
+  flex-wrap:wrap;
+  cursor: pointer;
+}
+.pixel{
+  background-color: white;
+  border: solid black 1px;
+  width:10px;
+  height: 10px;
+}
+.palette{
+  border: black solid 1px;
+  margin:10px 302px 20px 300px;
+  width: 816px;
+  height: 50px;
+}
+.button{
+  border: solid black 1px;
+  width: 46px;
+  padding-bottom: 47px;
+  float:left;
+
+}
+.red{
+  background-color: red;
+}
+.orange{
+  background-color: orange;
+}
+.yellow{
+  background-color: yellow;
+}
+.green{
+  background-color: green;
+}
+.blue{
+  background-color: blue;
+}
+.indigo{
+  background-color: indigo;
+}
+.violet{
+  background-color: violet;
+}
+.black{
+  background-color: black;
+}
+.papayawhip{
+  background-color: papayawhip;
+}
+.cornflowerBlue{
+  background-color: cornflowerBlue;
+}
+.brown{
+  background-color: brown;
+}
+.teal{
+  background-color: teal;
+}
+.salmon{
+  background-color: salmon;
+}
+.olive{
+  background-color: olive;
+}
+.maroon{
+  background-color: maroon;
+}
+.grey{
+  background-color: grey;
+}
+.gold{
+  background-color: gold;
+}
+.button2{
+  margin-left: 130px;
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+}
+.current{
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  margin-top: 20px;
+  margin-left: 200px;
+  float: left;
+  background-color: white;
+}
