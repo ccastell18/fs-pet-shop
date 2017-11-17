@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Synthesized!</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="materialize.css" media="screen,projection" />
+    <link rel='stylesheet' type='text/css' href='style.css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<style>
+</style>
+
+<body class='body'>
+  <div class='container'>
+    <div class='row'>
+      <div>
+        <h2 class='col s11 title'><b>Synthesized (plus the weather)</b></h2>
+      </div>
+      <div>
+        <a href='index3.html'><img src='theremin 2.jpg' alt='theremin picture' class='col s1 ther-btn circle responsive-img'></a>
+      </div>
+    </div>
+
+    <h5 class='warning'>WARNING: Turn down volume before pressing START!!!</h5>
+    <div class='row'>
+      <div class='col s6' id='waveformBox'>
+        <div id='waveform'>
+          <button type='button' id='sine' value='sine' class='btn sine wave '>Sine</button>
+          <button type='button' id='triangle' value='triangle' class='btn triangle wave'>Triangle</button>
+          <button type='button' id='sawtooth' value='sawtooth' class='btn sawtooth wave'>Sawtooth</button>
+          <button type='button' id='square' value='square' class='btn square wave'>Square</button>
+        </div>
+      </div>
+      <div class='col s6'>
+        <button type='button' id="play" class='btn play'>PLAY</button>
+        <button type='button' id="stop" class='btn stop'>STOP</button>
+        <div>
+          <label for='volume' style='color:black'>VOLUME</label>
+          <input type='range' id='volume' min='0' max='1' step='0.01'>
+        </div>
+        <div>
+          <label for='hertz' style='color:black'>FREQUENCY</label>
+          <input type='range' id='hertz' min='50' max='2000' step='5'>
+        </div>
+      </div>
+    </div>
+      <div class='row'>
+        <div class='col s6'>
+          <div id='filter-type'>
+            <button type='button' id='low' value='lowpass' class='btn lpf filt'>LPF</button>
+            <button type='button' id='high' value='highpass' class='btn hpf filt'>HPF</button>
+            <button type='button' id='notch' value='notch' class='btn notch filt'>NOTCH</button>
+          </div>
+          <div>
+            <label for='filter' style='color:black'>Filter</label>
+            <input type='range' id='filter' min='100' max='2000' step='5'>
+          </div>
+        </div>
+        <div class='col s6'>
+            <button type='button' id='lfo-start' class='btn lfo-Start'>LFO START</button>
+            <button type='button' id='lfo-stop' class='btn lfo-Stop'>LFO STOP</button>
+            <div>
+            <label for='lfo-slider' style='color:black'>LFO</label>
+            <input type='range' id='lfo-slider' min='2' max='30' step='5'>
+          </div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col s10'>
+          <div class='keyboard'>
+          <button id='c' class='c'></button>
+          <button id='c2' class='c2'></button>
+          <button id='d' class='d'></button>
+          <button id='d2' class='d2'></button>
+          <button id='e' class='e'></button>
+          <button id='f' class='f'></button>
+          <button id='f2' class='f2'></button>
+          <button id='g' class='g'></button>
+          <button id='g2' class='g2'></button>
+          <button id='a' class="a"></button>
+          <button id='a2' class='a2'></button>
+          <button id='b' class='b'></button>
+          <button id='c3' class='c3'></button>
+        </div>
+      </div>
+        <div class='col s2 weather'>
+          <div id='weather'></div>
+          <div id='condition'></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="project.js"></script>
+</body>
+
+</html>

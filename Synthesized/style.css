@@ -1,0 +1,172 @@
+.c{
+  border:black solid 1px;
+  background-color: white;
+  width: 50px;
+  height: 250px;
+  margin-left: 30px;
+
+}
+.c2{
+    border:black solid 1px;
+    background-color: black;
+    width: 50px;
+    height: 250px;
+    margin-bottom: 50px;
+
+
+}
+.d{
+    border:black solid 1px;
+    background-color: white;
+    width: 50px;
+    height: 250px;
+}
+.d2{
+    border:black solid 1px;
+    background-color: black;
+    width: 50px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+.e{
+    border:black solid 1px;
+    background-color: white;
+    width: 50px;
+    height: 250px;
+}
+.f{
+    border:black solid 1px;
+    background-color: white;
+    width: 50px;
+    height: 250px;
+}
+.f2{
+    border:black solid 1px;
+    background-color: black;
+    width: 50px;
+    height: 250px;
+
+
+}
+.g{
+    border:black solid 1px;
+    background-color: white;
+    width: 50px;
+    height: 250px;
+}
+.g2{
+    border:black solid 1px;
+    background-color: black;
+    width: 50px;
+    height: 250px;
+    margin-bottom: 50px;
+
+}
+.a{
+    border:black solid 1px;
+    background-color: white;
+    width:50px;
+    height: 250px;
+}
+.a2{
+    border:black solid 1px;
+    background-color: black;
+    width: 50px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+.b{
+    border:black solid 1px;
+    background-color: white;
+    width:50px;
+    height: 250px;
+}
+.c3{
+    border:black solid 1px;
+    background-color: white;
+    width:50px;
+    height: 250px;
+}
+.weather{
+  border: solid black 1px;
+  width:50px;
+  height:120px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  justify-content: flex-end;
+
+}
+.warning{
+  background-color: red;
+  height: 30px;
+}
+.title{
+  background-color: cornflowerBlue;
+}
+.body{
+  background-color: cornflowerBlue;
+}
+.wave{
+  margin: 10px 10px 10px;
+  background-color: darkgray;
+
+}
+.lfo-Start{
+  margin-left: 100px;
+  background-color: darkgray;
+}
+.lfo-Stop{
+  margin-left: 50px;
+  background-color: darkgray;
+}
+.triangle{
+  margin-left: 63px;
+}
+.play{
+  margin-left: 100px;
+  background-color: darkgray;
+}
+.stop{
+  margin-left: 50px;
+  background-color: darkgray;
+}
+.lpf{
+  margin-left: 50px;
+}
+.hpf{
+  margin-left: 20px;
+}
+.notch{
+  margin-left: 20px;
+}
+.ther-btn{
+  margin-top: 75px;
+  color: black;
+  width: 100px;
+}
+.waveButtons{
+  margin-top: 10px;
+}
+.filt{
+  background-color: darkgray;
+}
+.keyboard{
+  background-color: grey;
+  width: 750px;
+  margin-left: 50px;
+  z-depth-5;
+}
+.waves{
+  background-color: darkgray;
+  font: black;
+}
+h2{
+  font-style: italic;
+}
+.moog{
+  width:100px;
+  height: 50px;
+  margin-top: 10px;
+}
