@@ -6,7 +6,7 @@ const rewire = require('rewire');
 // Set the port to a different number so that it does not conflict with the
 // other test files.
 process.env.PORT = 3005;
-const app = rewire('../restfulExpressServer');
+let app = rewire('../restfulExpressServer');
 
 describe('pets restfulExpressServer', () => {
   beforeEach(() => {
