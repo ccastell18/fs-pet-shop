@@ -1,0 +1,17 @@
+{
+  "name": "w3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "m-conference-traveller-warmup.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/r-test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
